@@ -1,0 +1,6 @@
+.idea/
+target/
+codemother/dbschema/
+config.properties
+*.iml
+*.lst

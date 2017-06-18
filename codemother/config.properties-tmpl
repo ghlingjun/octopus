@@ -1,0 +1,20 @@
+# basic package name
+package=com.primeco
+# DB schema
+schema=octopus
+# Generate specific tables, split with comma(,)
+tables=man_user,man_role,man_authority,man_user_role,man_role_auth
+
+# If precision is high,floating type is BigDecimal, and else is Double
+precision=
+# if set the value, the prefix of table will be removed when generate code
+tablePrefix=
+# generate specific layers(selectable value: dbschema), split with comma(,).
+layers=dbschema
+
+##############################################
+# mysql jdbc driver information
+jdbc.driverClassName=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql://localhost:3306/octopus
+jdbc.username=primecocn
+jdbc.password=primecocn
